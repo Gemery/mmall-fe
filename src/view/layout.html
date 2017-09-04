@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interview</title>
+    <style>
+        html *{
+            padding:0;
+            margin:0;
+        }
+        .layout article div{
+            min-height:100px;
+        }
+        .layout{
+            margin-top:12px;
+        }
+    </style>
+</head>
+<body>
+<section class="layout float">
+    <style media="screen">
+        .layout.float .left{
+            float:left;
+            width:300px;
+            background-color:red;
+        }
+        .layout.float .right{
+            float:right;
+            width:300px;
+            background-color: blue;
+        }
+        .layout.float .center{
+            background:yellow;
+        }
+    </style>
+    <article class="left-right-center">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="center">
+            <h1>浮动的解决方案</h1>
+            1.这是浮动的解决方案
+        </div>
+    </article>
+</section>
+<section class="layout absolute">
+    <style media="screen">
+        .layout.absolute .left-right-absolute>div{
+            position: absolute;
+        }
+        .layout.absolute .left{
+            width:300px;
+            left:0;
+            background: red;
+        }
+        .layout.absolute .right{
+            width:300px;
+            right:0;
+            background: blue;
+        }
+        .layout.absolute .center{
+            left:300px;
+            right:300px;
+            background: yellow;
+        }
+    </style>
+    <article class="left-right-absolute">
+        <div class="left"></div>
+        <div class="center">
+            <h1>绝对定位</h1>
+            <h1>绝对定位</h1>
+        </div>
+        <div class="right"></div>
+    </article>
+</section>
+<section class="layout flexbox">
+    <style>
+        .layout.flexbox{
+            margin-top: 130px;
+        }
+        .layout.flexbox .left-right-center{
+            display: flex;
+        }
+        .layout.flexbox .left{
+            width:300px;
+            background-color: red;
+        }
+        .layout.flexbox .center{
+           flex: 1;
+            background-color: yellow;
+        }
+        .layout.flexbox .right{
+            width:300px;
+            background-color: blue;
+        }
+    </style>
+    <article class="left-right-center">
+        <div class="left"></div>
+        <div class="center">
+            <h1>flexbox 布局解决方案</h1>
+            <h1>flexbox 布局解决方案</h1>
+            <h1>flexbox 布局解决方案</h1>
+        </div>
+        <div class="right"></div>
+    </article>
+</section>
+<section class="layout table">
+    <style>
+        .layout.table .left-center-right{
+            width:100%;
+            display: table;
+            height:100px;
+        }
+        .layout.table .left-center-right>div{
+            display:table-cell;
+        }
+        .layout.table .left{
+            background: red;
+            width:300px;
+        }
+       .layout.table .center{
+            background:yellow;
+
+        }
+        .layout.table .right{
+            width:300px;
+            background: blue;
+        }
+    </style>
+    <article class="left-center-right">
+        <div class="left"></div>
+        <div class="center">
+            <h1> bia表格布局的解决方案   </h1>
+            <h1> bia表格布局的解决方案   </h1>
+            <h1> bia表格布局的解决方案   </h1>
+        </div>
+        <div class="right"></div>
+    </article>
+</section>
+<section class="layout grid">
+    <style>
+        .layout.grid .left-center-right{
+            display:grid;
+            width:100%;
+            grid-template-rows: 100px;
+            grid-template-columns: 300px auto 300px;
+        }
+        .layout.grid .left{
+            background: red;
+        }
+        .layout.grid .center{
+            background: yellow;
+        }
+        .layout.grid .right{
+            background: blue;
+        }
+    </style>
+    <article class="left-center-right">
+        <div class="left"></div>
+        <div class="center">
+            <h1>网格布局的解决方案</h1>
+            <h1>网格布局的解决方案</h1>
+            <h1>网格布局的解决方案</h1>
+            <h1>网格布局的解决方案</h1>
+        </div>
+        <div class="right"></div>
+    </article>
+</section>
+</body>
+</html>

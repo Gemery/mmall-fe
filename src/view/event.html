@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+</head>
+<body>
+ <div id="ev">
+     <style>
+         #ev{
+
+         }
+
+     </style>
+     目标元素
+ </div>
+ <script>
+     var arr = [];
+     for(var i=0;i<1000;i++){
+         arr[i]= parseInt(Math.random()*10000);
+
+     }
+     console.log(arr);
+     function selectionsort(arr){
+         for(var i=0;i<arr.length;i++){
+             for(var j=i+1;j<arr.length;j++){
+
+                 if(arr[j]<arr[i]){
+                   var a = arr[i];
+                     arr[i] = arr[j];
+                     arr[j] = a;
+                 }
+             }
+         }
+         console.log(arr);
+     }
+     function insertsort(arr){
+         for(var i=1;i<arr.length;i++){
+             for(var j=i;j>0 && arr[j]<arr[j-1];j--){
+
+                 if(arr[j]<arr[j-1]){
+                     var a = arr[j-1];
+                     arr[j-1] = arr[j];
+                     arr[j] = a;
+                 }
+             }
+         }
+         console.log(arr);
+     }
+     var d1=new Date().getTime();
+     selectionsort(arr);
+     var d2=new Date().getTime();
+
+     console.log(d2 - d1);
+
+
+     var d3=new Date().getTime();
+     insertsort(arr);
+     var d4=new Date().getTime();
+
+     console.log(d4 - d3);
+
+     /*merge归并排序*/
+//l,r两端索引的位置
+     function mergeSort(arr,l,r){
+         var mid = (l+r)/2;
+         if()
+         __mergeSort(arr,l,r);
+     }
+
+     function __mergeSort(arr,l,r){
+
+     }
+ </script>
+</body>
+</html>

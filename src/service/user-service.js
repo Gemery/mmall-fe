@@ -1,0 +1,32 @@
+/**
+ *
+ *
+ * Created by gemery on 2017/9/4.
+ */
+
+
+'use strict';
+
+var _mm = require('util/mm.js');
+
+var _user = {
+    logout : function(){
+        _mm.request({
+           url    : _mm.getServerUrl('/service/logout.do'),
+            method : 'POST',
+            success :resolve,
+            error   : reject
+
+
+        });
+    },
+    checkLogin : function(resolve,reject){
+        _mm.request({
+            url :_mm.getServerUrl('/user/get_user_info.do'),
+            method : 'POST',
+            success :resolve,
+            error   : reject
+        })
+    }
+}
+module.exports = _user;

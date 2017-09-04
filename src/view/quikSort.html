@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function quikSork(arr,n){
+        __quikSork1(arr, 0, n - 1);
+        console.log(arr);
+        return arr;
+
+    }
+    function __quikSork1(arr,l,r){
+        if(l>=r)
+            return;
+
+        var ar= partition(arr,l,r);
+        var p = ar[0];
+        __quikSork1(arr, l, p-1);
+        __quikSork1(arr, p + 1, r);
+
+        console.log(p[1]);
+        return p[1];
+    }
+    //对arr[l...r]不分进行partition的操作
+    //返回的p，是的arr[l...p-1] <arr[p]; arr[p+1]>arr[p]
+    function partition(arr,l,r){
+        var v = arr[l];
+        var j= l;
+        //arr[l+1....j] < v ;arr[j+1...i) > v
+        for(var i= l+1;i<=r;i++){
+            if( arr[i] < v){
+                var temp = arr[i];
+                //swap1( arr[j+1], arr[i])
+                arr[i] = arr[j + 1];
+                arr[j+1] = temp;
+                j++;
+            }
+        }
+       // swap1(arr[l],arr[j]);
+        arr[l] = arr[j];
+        arr[j] = v;
+        return [j, arr];
+    }
+
+    function swap1(a1,b1){
+
+       var temp = a1;
+        a1 = b1;
+        b1 =temp;
+
+    }
+
+
+    var arr = [];
+    for(var i=0;i<1000000;i++){
+        arr[i]= parseInt(Math.random()*10000);
+
+    }
+    var d1= new Date().getTime();
+    console.log(arr);
+    var c=quikSork(arr,10);
+    //console.log(c);
+    console.log(new Date().getTime() - d1);
+
+</script>
+</body>
+</html>
