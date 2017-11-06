@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9dabaa-9e25-4e34-9d54-d0c77e969bb7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/detail/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.string" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/list/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/list/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/list/index.string" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user-login/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user-register/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user-register/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/user-login.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/view/login.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/page/login/login.js" afterPath="$PROJECT_DIR$/src/page/user-login/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/common/header/index.css" afterPath="$PROJECT_DIR$/src/page/common/header/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/common/index.js" afterPath="$PROJECT_DIR$/src/page/common/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/common/nav/index.js" afterPath="$PROJECT_DIR$/src/page/common/nav/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/index/index.css" afterPath="$PROJECT_DIR$/src/page/index/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/index/index.js" afterPath="$PROJECT_DIR$/src/page/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/cart/index.css" afterPath="$PROJECT_DIR$/src/page/cart/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/cart/index.js" afterPath="$PROJECT_DIR$/src/page/cart/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/cart/index.string" afterPath="$PROJECT_DIR$/src/page/cart/index.string" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/cart-service.js" afterPath="$PROJECT_DIR$/src/service/cart-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/user-service.js" afterPath="$PROJECT_DIR$/src/service/user-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/mm.js" afterPath="$PROJECT_DIR$/src/util/mm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/box.html" afterPath="$PROJECT_DIR$/src/view/box.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/event.html" afterPath="$PROJECT_DIR$/src/view/event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/index.html" afterPath="$PROJECT_DIR$/src/view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/layout.html" afterPath="$PROJECT_DIR$/src/view/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/layout/nav.html" afterPath="$PROJECT_DIR$/src/view/layout/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/quikSort.html" afterPath="$PROJECT_DIR$/src/view/quikSort.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/result.html" afterPath="$PROJECT_DIR$/src/view/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="mmall-fe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,81 +29,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.string" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/list/index.string">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/cart/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.string" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/detail/index.string">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-730">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="-250">
+              <caret line="106" column="57" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/detail/index.js">
+        <entry file="file://$PROJECT_DIR$/src/page/common/nav/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="-130">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/result.html">
+      <file leaf-file-name="order-confirm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/order-confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="96">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/result/index.js">
+      <file leaf-file-name="index.string" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/cart/index.string">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="449">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart-service.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cart-service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/cart-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-center.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/js/user-center.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+            <state relative-caret-position="1670">
+              <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -139,8 +85,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -150,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/util/slider/index.css" />
         <option value="$PROJECT_DIR$/src/page/index/index.string" />
         <option value="$PROJECT_DIR$/src/view/layout/footer.html" />
         <option value="$PROJECT_DIR$/src/view/box.html" />
@@ -174,9 +119,7 @@
         <option value="$PROJECT_DIR$/src/page/user-center-update/index.string" />
         <option value="$PROJECT_DIR$/src/view/user-center-update.html" />
         <option value="$PROJECT_DIR$/src/page/common/header/index.css" />
-        <option value="$PROJECT_DIR$/src/page/cart/index.css" />
         <option value="$PROJECT_DIR$/src/view/cart.html" />
-        <option value="$PROJECT_DIR$/src/page/cart/index.string" />
         <option value="$PROJECT_DIR$/src/view/layout.html" />
         <option value="$PROJECT_DIR$/src/view/layout/nav.html" />
         <option value="$PROJECT_DIR$/src/util/mm.js" />
@@ -186,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/page/list/index.html" />
         <option value="$PROJECT_DIR$/src/view/list.html" />
         <option value="$PROJECT_DIR$/src/page/list/index.css" />
-        <option value="$PROJECT_DIR$/src/page/cart/index.js" />
         <option value="$PROJECT_DIR$/src/util/pagination/index.css" />
         <option value="$PROJECT_DIR$/src/util/pagination/index.string" />
         <option value="$PROJECT_DIR$/src/page/list/index.string" />
@@ -198,9 +140,13 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/service/product-service.js" />
         <option value="$PROJECT_DIR$/dist/js/user-center.js" />
-        <option value="$PROJECT_DIR$/src/service/cart-service.js" />
         <option value="$PROJECT_DIR$/src/page/detail/index.js" />
         <option value="$PROJECT_DIR$/src/view/result.html" />
+        <option value="$PROJECT_DIR$/src/page/cart/index.css" />
+        <option value="$PROJECT_DIR$/src/page/cart/index.string" />
+        <option value="$PROJECT_DIR$/src/view/order-confirm.html" />
+        <option value="$PROJECT_DIR$/src/page/cart/index.js" />
+        <option value="$PROJECT_DIR$/src/service/cart-service.js" />
       </list>
     </option>
   </component>
@@ -213,9 +159,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="806" />
-    <option name="y" value="32" />
-    <option name="width" value="1587" />
+    <option name="x" value="709" />
+    <option name="y" value="41" />
+    <option name="width" value="1417" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -348,7 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,29 +316,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmall-fe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmall-fe" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
+              <option name="myItemId" value="nav" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,18 +453,18 @@
       <workItem from="1509450623466" duration="2428000" />
       <workItem from="1509755351008" duration="12313000" />
       <workItem from="1509861678708" duration="13350000" />
-      <workItem from="1509928560758" duration="12071000" />
+      <workItem from="1509928560758" duration="20812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138397000" />
+    <option name="totallyTimeSpent" value="147138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="806" y="32" width="1587" height="977" extended-state="0" />
+    <frame x="709" y="41" width="1417" height="977" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17688379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17765044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -591,13 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/page/user-center/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/user-center/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -637,6 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,20 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/cart/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/user-login/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -737,6 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="989" column="8" selection-start-line="989" selection-start-column="8" selection-end-line="989" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,6 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1714">
           <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -775,17 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/common/nav/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/mm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,13 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/cart/index.string">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -814,6 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="22" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,6 +719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1413">
           <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,14 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/cart/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -925,26 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/list/index.string">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/detail/index.string">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/cart-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -969,6 +844,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/list/index.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/cart/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/order-confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/common/nav/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/cart/index.string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/cart/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="106" column="57" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/cart-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1670">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
           <folding />
         </state>
       </provider>
