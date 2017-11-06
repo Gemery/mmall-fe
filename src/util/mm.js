@@ -4,83 +4,80 @@
 'use strict';
 
 var conf = {
-    serverHost :'',
+    serverHost: '',
 }
 var Hogan = require("hogan.js");
 
 var _mm = {
-    request :function(param){
+    // 网络请求
+    request: function (param) {
         var _this = this;
         $.ajax({
-            type:param.method || 'get',
-            url :param.url,
-            dataType : param.type || 'json',
-            data   : param.data  || {},
-            success :function(res){
-                //如果登录成功
-                if(0 === res.status){
-                    typeof param.success ==='function' && param.success(res.data,res.msg)
+            type: param.method || 'get',
+            url: param.url || '',
+            dataType: param.type || 'json',
+            data: param.data || '',
+            success: function (res) {
+                // 请求成功
+                if (0 === res.status) {
+                    typeof param.success === 'function' && param.success(res.data, res.msg);
                 }
-                // 如果没有登录  跳转到login页面
-               else if(10 === res.status){
+                // 没有登录状态，需要强制登录
+                else if (10 === res.status) {
                     _this.doLogin();
                 }
-                // 如果请求数据错误
-                else if(1 === res.status){
-                    typeof param.success ==='function' && param.success(res.msg)
-
+                // 请求数据错误
+                else if (1 === res.status) {
+                    typeof param.error === 'function' && param.error(res.msg);
                 }
             },
-            error :function(err){
-                typeof param.success ==='function' && param.success(err.statusText)
-            },
-
-
-        })
+            error: function (err) {
+                typeof param.error === 'function' && param.error(err.statusText);
+            }
+        });
     },
-    // 统一登录处理
-    doLogin: function(){
-        window.location.href = './login.html?redirect='+encodeURIComponent(window.location.href)
+    doLogin : function(){
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //获取服务起地址
-    getServerUrl:function(path){
+    getServerUrl: function (path) {
         return conf.serverHost + path;
 
     },
     // 获取url参数
-    getUrlParam: function(name){
-        var reg = new RegExp('(^|&)'+name +'=([^&]*)(&|$)');
+    getUrlParam: function (name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
         var result = window.location.search.substr(1).match(reg);
 
-        return result ? decodeURIComponent(result[2]) :null;
+        return result ? decodeURIComponent(result[2]) : null;
     },
-    renderHtml:function(htmlTemplate,data){
+    renderHtml: function (htmlTemplate, data) {
         var template = Hogan.compile(htmlTemplate);
         var result = template.render(data);
 
         return result;
     },
-    successTips :function(msg){
+    successTips: function (msg) {
         alert(msg || '操作成功！')
     },
-    errorTips :function(msg){
+    errorTips: function (msg) {
         alert(msg || '哪里不对乐');
     },
     // 字段的验证 支持非空  手机 具有香/**/
-    validate : function (value,type){
+    validate: function (value, type) {
         var value = $.trim(value);
-        if('require' === type){
-            return  !!value;
+        if ('require' === type) {
+            return !!value;
         }
-        if('phone' === type){
+        if ('phone' === type) {
             return /^1\d{10}$/.test(value)
         }
-        if('email' === type){
+        if ('email' === type) {
             return /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(value);
         }
     },
-    goHome :function(){
-        window.location.href = './index.html';
+    goHome: function () {
+        window.location.href = './index.string';
     }
 };
 

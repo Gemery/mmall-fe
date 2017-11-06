@@ -65,6 +65,49 @@
     //console.log(c);
     console.log(new Date().getTime() - d1);
 
+
+    function mergeSort(arr,n){
+
+        _mergeSort(all,0,n-1);
+    }
+
+    function _mergeSort(all,l,r){
+        var mid = parseInt(l+ (r-l) / 2);
+        if(l>=r){
+            return;
+        }
+        _mergeSort(arr,l,mid);
+        _mergeSort(all,mid+1,r);
+        _merge(arr, l, mid, r);
+    }
+    /*合并arr[l...mid] arr[mid+1...r]数组*/
+    function _merge(arr,l,mid,r){
+        var aux;
+        for(var i=l;i<=r;i++){
+            aux[i - l] = arr[i];
+        }
+        var i=l,j=mid+1;
+        for(var i =k;k<=r;k++){
+            if(i > mid){
+                arr[k] = aux[j - l];
+                j++;
+            }
+            else if(j>r){
+                arr[k] = aux[i - l];
+                i++;
+            }
+            else if(aux[i-l] < aux[j-l]){
+                arr[i] = aux[i - l];
+                i++;
+            }
+            else{
+                //aux[i-l] > aux[j-l];
+                arr[i] = aux[j-l];
+                j++;
+            }
+        }
+    }
+    mergeSort(arr, arr.length);
 </script>
 </body>
 </html>
