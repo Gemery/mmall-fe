@@ -30,6 +30,7 @@ var config = {
         'user-register': ['./src/page/user-register/index.js'],
         'user-pass-reset': ['./src/page/user-pass-reset/index.js'],
         'user-center-update': ['./src/page/user-center-update/index.js'],
+        'payment': ['./src/page/payment/index.js'],
         'user-center': ['./src/page/user-center/index.js']
     },
     output: {
@@ -68,6 +69,7 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-center','用户中心')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center-update','个人信息修改')),
         new HtmlWebpackPlugin(getHtmlConfig('list','商品列表')),
+        new HtmlWebpackPlugin(getHtmlConfig('payment','支付页面')),
         new HtmlWebpackPlugin(getHtmlConfig('detail','商品详情')),
         new HtmlWebpackPlugin(getHtmlConfig('cart','购物车页面'))
 

@@ -80,7 +80,7 @@ var _cart = {
             data    : productInfo,
             success : resolve,
             error   : reject
-        });
+    });
     },
     //取消全选购物车商品
     deleteCartProduct: function (productIds,resolve, reject) {
